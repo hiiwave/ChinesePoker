@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\Hand">
+      <UniqueIdentifier>{0fc050f3-2951-426e-ab5c-3122ac386cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\Player">
+      <UniqueIdentifier>{2663abd6-5351-4598-8b6b-1ba59feeec5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Player">
+      <UniqueIdentifier>{29b59b2b-d412-4307-8438-9ab181f57037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\Hand">
+      <UniqueIdentifier>{f24477ad-21be-41e6-b1ad-4152ffd3ca4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CprGame.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CprStage.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CprCard.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CprCollection.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CprPlayer.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprHumanPlayer.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprAiPlayer.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprRegularAi.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprCustom1Ai.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprGreedyAi.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprTest.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CprHand.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprHandMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprStraightFlushMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprFourOfAKindMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprFullHouseMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprHighCardMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprFlushMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprStraightMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprThreeOfAKindMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprTwoPairMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprOnePairMaster.cpp">
+      <Filter>原始程式檔\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="CprStupidAi.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CprBruteAi.cpp">
+      <Filter>原始程式檔\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CprGame.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprDef.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprStage.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprCard.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprCollection.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprPlayer.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprHumanPlayer.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprAiPlayer.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprRegularAi.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprHandType.h">
+      <Filter>標頭檔\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="CprDealer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprCustom1Ai.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprHandMaster.h">
+      <Filter>標頭檔\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="CprHand.h">
+      <Filter>標頭檔\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="CprGreedyAi.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprEachMaster.h">
+      <Filter>標頭檔\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="CprTest.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprEachMasterTest.h">
+      <Filter>標頭檔\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CprStupidAi.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CprBruteAi.h">
+      <Filter>標頭檔\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Chinese Poker.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
